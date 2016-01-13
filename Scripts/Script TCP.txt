@@ -1,0 +1,12 @@
+at&f
+at&w
+AT$FRIEND=1,1,"192.168.1.0",8080,1
+at+cgdcont=1,"IP","your-apn-here.com"
+AT+CREG=2
+AT$AREG=2
+AT$EVTIM1=60
+AT$EVENT=10,1,12,1,1
+AT$EVENT=10,3,52,70,1048575
+AT$TCPAPI=1
+at&w
+at$reset

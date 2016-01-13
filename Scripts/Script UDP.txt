@@ -1,0 +1,13 @@
+at&f
+at&w
+at$wakeup=1,1
+at$udpapi="192.168.1.0",8080
+at$friend=1,1,"192.168.1.0"
+at+cgdcont=1,"IP","your-apn-here.com"
+AT+CREG=2
+AT$AREG=2
+AT$EVTIM1=60
+AT$EVENT=10,1,12,1,1
+AT$EVENT=10,3,40,70,1048575
+at&w
+at$reset
